@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "GoldenBold";
+    src: url("../fonts/Goldplay-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "GoldenRegular";
+    src: url("../fonts/Goldplay-Regular.otf") format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "GoldenRegular";
+}
+
+body {
+    font-family: "GoldenRegular";
+}
+
+nav {
+    background: rgb(0,0,0);
+    color: white;
+    height: 78px;
+    width: 100%;
+    font-size: 17px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#a_registroDeUsuarios {
+    padding-right: 5%;
+    padding-top: 1%;
+    float: right;
+}
+
+#logo {
+    height: 50px;
+    padding-left: 5%;
+    padding-top: 10px;
+    float: left;
+}
+
+#btn_registroDeUsuarios {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius:30px;
+    padding: 10px 17px;
+    font-family: "GoldenBold";
+    transition-duration:0.4s ;
+}
+
+#btn_registroDeUsuarios:hover{
+    background-color: white;
+    color: black;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 38px;
+    margin-top: 20%;
+}
+
+#btn_more {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius:30px;
+    padding: 10px 17px;
+    font-family: "GoldenBold";
+    transition-duration:0.4s ;
+    margin: 25px;
+}
+
+#btn_more:hover{
+    background-color: black;
+    color: white;
+}
+
+#registrar_usuario_form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 360px;
+    margin: 5% auto 100px;
+    padding: 5px 150px 150px 150px;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.txt_p {
+    padding-bottom: 15%;
+}
+
+#enviar_registro {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius:30px;
+    padding: 10px 17px;
+    font-family: "GoldenBold";
+    transition-duration:0.4s ;
+    margin: 25px;
+}
+
+#enviar_registro:hover{
+    background-color: black;
+    color: white;
+}
+
+#b_color {
+    background-color: #328f8a;
+    background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+}
+
+input {
+    background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
